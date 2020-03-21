@@ -1,5 +1,5 @@
 @import 'config';
-
+@import 'home';
 
 body {
     background-color: $primary-color;
@@ -13,7 +13,7 @@ h1, h2, h3 {
     font-weight: 400;
 }
 
-
+//global link formating
 a {
     color: white;
     text-decoration: none;
@@ -23,7 +23,38 @@ header {
     position: fixed;
     z-index: 2;
     width: 100%;
+    //rem units based on font size of the body 1x16=32px
+    //em units based on the parent insted of the body
     padding: 1rem;
 }
 
+main {
+    height: 100%;
+    width: 100%;
 
+
+    .social-icons {
+        position: fixed;
+        bottom: 1rem;
+        left: 1rem;
+    
+
+        a {
+            padding:  0.4rem;
+
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+footer {
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0.4rem;
+    right: 1rem;
+    text-align: right;
+    padding: 1rem;
+    color: white;
+}
