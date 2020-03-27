@@ -13,8 +13,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(30, 16, 54, 0.9)), to(rgba(194, 6, 153, 0.3)));
-  background: linear-gradient(to right, rgba(30, 16, 54, 0.9), rgba(194, 6, 153, 0.3));
+  background: -webkit-gradient(linear, left top, right top, from(rgba(30, 16, 54, 0.9)), to(rgba(128, 128, 128, 0.3)));
+  background: linear-gradient(to right, rgba(30, 16, 54, 0.9), rgba(128, 128, 128, 0.3));
 }
 
 .home__name {
@@ -25,7 +25,7 @@
 }
 
 .home__name--last {
-  color: #c20699;
+  color: gray;
   font-weight: 700;
 }
 
@@ -119,10 +119,12 @@
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
+  width: 100vw;
   overflow: hidden;
   background: #1e1036;
   list-style-type: none;
   padding-right: 1rem;
+  padding-left: 1rem;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
   -webkit-transition: all 0.5s ease-in-out;
@@ -147,13 +149,14 @@
 }
 
 .nav .menu-nav__item.active > a {
-  color: #c20699;
+  color: gray;
 }
 
 .nav .menu-nav__link {
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
+  text-decoration: none;
   padding: 2rem 0;
   font-weight: 300;
   -webkit-transition: all 0.5s ease-in-out;
@@ -161,7 +164,7 @@
 }
 
 .nav .menu-nav__link:hover {
-  color: #c20699;
+  color: gray;
 }
 
 .menu-nav__item:nth-child(1) {
@@ -189,10 +192,10 @@
 }
 
 .about__bio {
-  height: 50vh;
+  height: 25vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(30, 16, 54, 0.9)), to(rgba(194, 6, 153, 0.3)));
-  background: linear-gradient(to right, rgba(30, 16, 54, 0.9), rgba(194, 6, 153, 0.3));
+  background: -webkit-gradient(linear, left top, right top, from(rgba(30, 16, 54, 0.9)), to(rgba(128, 128, 128, 0.3)));
+  background: linear-gradient(to right, rgba(30, 16, 54, 0.9), rgba(128, 128, 128, 0.3));
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -232,7 +235,7 @@ a {
 }
 
 .text-secondary {
-  color: #c20699;
+  color: gray;
 }
 
 header {
@@ -260,7 +263,7 @@ main .social-icons a {
 }
 
 main .social-icons a:hover {
-  color: #c20699;
+  color: gray;
 }
 
 footer {
