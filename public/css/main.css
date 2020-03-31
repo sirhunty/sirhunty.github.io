@@ -188,12 +188,13 @@
 }
 
 .about {
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 }
 
 .about__bio {
   height: 25vh;
   width: 100%;
+  text-align: center;
   background: -webkit-gradient(linear, left top, right top, from(rgba(30, 16, 54, 0.9)), to(rgba(128, 128, 128, 0.3)));
   background: linear-gradient(to right, rgba(30, 16, 54, 0.9), rgba(128, 128, 128, 0.3));
   background-size: cover;
@@ -215,6 +216,74 @@
 .about p {
   -webkit-margin-after: 2rem;
           margin-block-end: 2rem;
+}
+
+.about .jobs {
+  width: 20vw;
+  margin: 2rem auto 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.about .jobs__job {
+  background: #341c5d;
+  padding: 0.5rem;
+  border-bottom: 5px solid purple;
+}
+
+.about .jobs h2, .about .jobs h3 {
+  margin: 0.5rem 0;
+}
+
+.about .jobs h6 {
+  margin: 0.3rem 0;
+}
+
+.about .schools {
+  width: 20vw;
+  margin: 2rem auto 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.about .schools__school {
+  background: #341c5d;
+  padding: 0.5rem;
+  border-bottom: 5px solid purple;
+}
+
+.about .schools h2, .about .schools h3 {
+  margin: 0.5rem 0;
+}
+
+.about .schools h6 {
+  margin: 0.3rem 0;
+}
+
+.about .job-desc-list {
+  list-style-type: none;
+}
+
+.about .schools-desc-list {
+  list-style-type: none;
+}
+
+.about .work-history {
+  text-align: center;
+}
+
+.about .education {
+  text-align: center;
+}
+
+.about h3 {
+  color: purple;
 }
 
 body {

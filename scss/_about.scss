@@ -1,9 +1,10 @@
 .about {
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
 
     &__bio {
         height: 25vh;
         width: 100%;
+        text-align: center;
         background:
         linear-gradient(
         to right,
@@ -21,4 +22,73 @@
       margin-block-end: 2rem;
 
   }
+
+
+    .jobs {
+        width: 20vw;
+        margin: 2rem auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+
+        
+        &__job {
+           background: lighten($primary-color, 10%);
+           padding: 0.5rem;
+           border-bottom: 5px solid $third-color; 
+        }
+
+        h2, h3 {
+            margin: 0.5rem 0;
+        }
+        h6 {
+            margin: 0.3rem 0;
+        }
+    }
+
+    .schools {
+        width: 20vw;
+        margin: 2rem auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+
+        
+        &__school {
+           background: lighten($primary-color, 10%);
+           padding: 0.5rem;
+           border-bottom: 5px solid $third-color; 
+        }
+
+        h2, h3 {
+            margin: 0.5rem 0;
+        }
+        h6 {
+            margin: 0.3rem 0;
+        }
+    }
+
+    .job-desc-list {
+        list-style-type: none;
+    }
+
+    .schools-desc-list {
+        list-style-type: none;
+    }
+
+    .work-history {
+        text-align: center;
+    }
+
+    .education {
+        text-align: center;
+    }
+
+    h3 {
+        color: $third-color;
+    }
+
+
 }
+
+
