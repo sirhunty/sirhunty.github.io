@@ -34,13 +34,13 @@
 
 
     .jobs {
-        width: 20vw;
+        width: 30vw;
         margin: 2rem auto 0 auto;
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 2rem;
+        text-align: center;
 
-        
         &__job {
            background: lighten($primary-color, 10%);
            padding: 0.5rem;
@@ -56,7 +56,7 @@
     }
 
     .schools {
-        width: 20vw;
+        width: 30vw;
         margin: 2rem auto 0 auto;
         display: grid;
         grid-template-columns: 1fr;
@@ -91,6 +91,16 @@
 
     .education {
         text-align: center;
+    }
+
+    .job-desc {
+        text-align: left;
+        padding-left: 25px;
+    }
+
+    .school-desc {
+        text-align: left;
+        padding-left: 25px;
     }
 
     h3 {

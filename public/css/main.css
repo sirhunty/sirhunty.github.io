@@ -227,13 +227,14 @@
 }
 
 .about .jobs {
-  width: 20vw;
+  width: 30vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   grid-gap: 2rem;
+  text-align: center;
 }
 
 .about .jobs__job {
@@ -251,7 +252,7 @@
 }
 
 .about .schools {
-  width: 20vw;
+  width: 30vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
@@ -288,6 +289,16 @@
 
 .about .education {
   text-align: center;
+}
+
+.about .job-desc {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.about .school-desc {
+  text-align: left;
+  padding-left: 25px;
 }
 
 .about h3 {
@@ -339,7 +350,7 @@
 }
 
 .projects__items {
-  width: 60vw;
+  width: 40vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
