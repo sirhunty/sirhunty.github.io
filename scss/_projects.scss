@@ -1,27 +1,31 @@
 .projects {
     padding-bottom: 5rem;
 
-    &__header {
-        height: 30vh;
+    &__bio-image {
+        height: 100vh;
         width: 100%;
-        text-align: center;
-        background:
-        linear-gradient(
-        to right,
-        rgba($primary-color, 0.9),
-        rgba($secondary-color, 0.3)
-    );
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-  }
+        background: 
+          linear-gradient(
+            to left,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.3)
+          ),
+          url('/Images/webdev-wallpaper.jpg') center top;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    
+        .text-secondary {
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+        }
+    }
 
-  .text-secondary {
-      font-size: 2rem;
-      margin-bottom: 2rem;
-  }
+    &__header {
+        padding-bottom: 175px;
+    }
 
 
     &__items {
@@ -29,26 +33,20 @@
         margin: 2rem auto 0 auto;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 2rem;
+        grid-gap: 2rem;  
+    }
 
-        
-        &__item {
-           position: relative;
-           border-bottom: 5px solid $secondary-color;
-           overflow: hidden;
-           cursor: pointer;
+    &__item {
+        position: relative;
+        border-bottom: 10px solid $third-color;
+        overflow: hidden;
+        // cursor: pointer;
 
-           img {
-               width: 100%;
-           }
+        img {
+            width:  100%;
         }
 
-        h2, h3 {
-            margin: 0.5rem 0;
-        }
-        h6 {
-            margin: 0.3rem 0;
-        }
+
     }
 
 
@@ -63,8 +61,6 @@
     //         rotate(90deg)
     //         translate(-3rem, -5rem);
     // }
-
-
 
 
 }

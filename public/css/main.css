@@ -308,12 +308,11 @@
   padding-bottom: 5rem;
 }
 
-.projects__header {
-  height: 30vh;
+.projects__bio-image {
+  height: 100vh;
   width: 100%;
-  text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(30, 16, 54, 0.9)), to(rgba(128, 128, 128, 0.3)));
-  background: linear-gradient(to right, rgba(30, 16, 54, 0.9), rgba(128, 128, 128, 0.3));
+  background: -webkit-gradient(linear, right top, left top, from(rgba(30, 16, 54, 0.9)), to(rgba(30, 16, 54, 0.3))), url("/Images/webdev-wallpaper.jpg") center top;
+  background: linear-gradient(to left, rgba(30, 16, 54, 0.9), rgba(30, 16, 54, 0.3)), url("/Images/webdev-wallpaper.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -330,9 +329,13 @@
           justify-content: flex-end;
 }
 
-.projects .text-secondary {
-  font-size: 2rem;
+.projects__bio-image .text-secondary {
+  padding-bottom: 2rem;
   margin-bottom: 2rem;
+}
+
+.projects__header {
+  padding-bottom: 175px;
 }
 
 .projects__items {
@@ -345,23 +348,14 @@
   grid-gap: 2rem;
 }
 
-.projects__items__item {
+.projects__item {
   position: relative;
-  border-bottom: 5px solid gray;
+  border-bottom: 10px solid purple;
   overflow: hidden;
-  cursor: pointer;
 }
 
-.projects__items__item img {
+.projects__item img {
   width: 100%;
-}
-
-.projects__items h2, .projects__items h3 {
-  margin: 0.5rem 0;
-}
-
-.projects__items h6 {
-  margin: 0.3rem 0;
 }
 
 .projects .social-icons {
