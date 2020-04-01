@@ -191,12 +191,11 @@
   padding-bottom: 5rem;
 }
 
-.about__bio {
-  height: 25vh;
+.about__bio-image {
+  height: 50vh;
   width: 100%;
-  text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(30, 16, 54, 0.9)), to(rgba(128, 128, 128, 0.3)));
-  background: linear-gradient(to right, rgba(30, 16, 54, 0.9), rgba(128, 128, 128, 0.3));
+  background: -webkit-gradient(linear, left top, right top, from(rgba(30, 16, 54, 0.9)), to(rgba(30, 16, 54, 0.3))), url("/Images/a-logo-i-made.jpg") center top;
+  background: linear-gradient(to right, rgba(30, 16, 54, 0.9), rgba(30, 16, 54, 0.3)), url("/Images/a-logo-i-made.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -213,9 +212,17 @@
           justify-content: flex-end;
 }
 
-.about p {
-  -webkit-margin-after: 2rem;
-          margin-block-end: 2rem;
+.about__bio-image p {
+  margin-bottom: 2rem;
+}
+
+.about__bio {
+  width: 80%;
+  text-align: center;
+}
+
+.about__bio .text-secondary {
+  padding-bottom: 1rem;
 }
 
 .about .jobs {
@@ -290,15 +297,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.about footer {
-  -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
-          transform: rotate(90deg) translate(-3rem, -5rem);
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .projects {
@@ -365,15 +367,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.projects footer {
-  -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
-          transform: rotate(90deg) translate(-3rem, -5rem);
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 body {
@@ -411,6 +408,9 @@ main {
 
 main .social-icons {
   position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   bottom: 1rem;
   left: 1rem;
 }

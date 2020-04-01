@@ -1,27 +1,35 @@
 .about {
     padding-bottom: 5rem;
 
-    &__bio {
-        height: 25vh;
+    &__bio-image {
+        height: 50vh;
         width: 100%;
+        background: 
+          linear-gradient(
+            to right,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.3)
+          ),
+          url('/Images/a-logo-i-made.jpg') center top;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    
+        p {
+          margin-bottom: 2rem;
+        }
+      }
+    
+      &__bio {
+        width: 80%;
         text-align: center;
-        background:
-        linear-gradient(
-        to right,
-        rgba($primary-color, 0.9),
-        rgba($secondary-color, 0.3)
-    );
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-  }
-
-  p {
-      margin-block-end: 2rem;
-
-  }
+    
+        .text-secondary {
+          padding-bottom: 1rem;
+        }
+      }
 
 
     .jobs {
@@ -90,16 +98,14 @@
 
     .social-icons {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
-    footer {
-        transform: 
-            rotate(90deg)
-            translate(-3rem, -5rem);
-    }
+    // footer {
+    //     transform: 
+    //         rotate(90deg)
+    //         translate(-3rem, -5rem);
+    // }
 
 
 }
-
-
