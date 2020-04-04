@@ -19,5 +19,8 @@
   "dependencies": {
     "sass": "^1.26.3",
     "swup": "^2.0.9"
+  },
+  "devDependencies": {
+    "file-loader": "^6.0.0"
   }
 }

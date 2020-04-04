@@ -1,7 +1,7 @@
 $primary-color: #1e1036;
 $secondary-color: gray;
 $third-color: purple;
-$fourth-color: white;
+$fourth-color: blue;
 
 * {
   box-sizing: border-box;
@@ -18,6 +18,22 @@ $fourth-color: white;
     @return #000;
   } @else {
     @return #fff;
+  }
+}
+
+@mixin media-md {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+@mixin media-lg {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+@mixin media-xl {
+  @media screen and (min-width: 1600px) {
+    @content;
   }
 }
 
