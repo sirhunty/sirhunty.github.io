@@ -26,22 +26,19 @@ $fourth-color: blue;
     @content;
   }
 }
-@mixin media-lg {
-  @media screen and (min-width: 1024px) {
-    @content;
-  }
-}
-@mixin media-xl {
-  @media screen and (min-width: 1600px) {
+
+@mixin media-footer {
+  @media screen and (max-width: 1199px) {
     @content;
   }
 }
 
-@mixin media-md {
-  @media screen and (min-width: 768px) {
+@mixin media-social {
+  @media screen and (max-width: 770px) {
     @content;
   }
 }
+
 @mixin media-lg {
   @media screen and (min-width: 1024px) {
     @content;
