@@ -1,2 +1,2 @@
-# Portfolio-Page-V2
-Updated portfolio page using Sass and Swup
+# Web Design Portfolio
+Updated portfolio page using Sass. All about me!
