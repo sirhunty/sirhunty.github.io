@@ -196,8 +196,6 @@
   width: 100%;
   background: -webkit-gradient(linear, right top, left top, from(rgba(30, 16, 54, 0.9)), to(rgba(128, 128, 128, 0.3)));
   background: linear-gradient(to left, rgba(30, 16, 54, 0.9), rgba(128, 128, 128, 0.3));
-  background: -webkit-gradient(linear, right top, left top, from(rgba(30, 16, 54, 0.9)), to(rgba(30, 16, 54, 0.3))), url("/src/public/Assets/Images/a-logo-i-made.jpg") center center;
-  background: linear-gradient(to left, rgba(30, 16, 54, 0.9), rgba(30, 16, 54, 0.3)), url("/src/public/Assets/Images/a-logo-i-made.jpg") center center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -320,17 +318,17 @@
 }
 
 .about .job-desc {
-  text-align: left;
+  text-align: center;
   padding-left: 25px;
 }
 
 .about .school-desc {
-  text-align: left;
+  text-align: center;
   padding-left: 25px;
 }
 
 .about h3 {
-  color: purple;
+  color: gray;
 }
 
 .about .social-icons {
@@ -352,8 +350,6 @@
   width: 100%;
   background: -webkit-gradient(linear, right top, left top, from(rgba(30, 16, 54, 0.9)), to(rgba(128, 128, 128, 0.3)));
   background: linear-gradient(to left, rgba(30, 16, 54, 0.9), rgba(128, 128, 128, 0.3));
-  background: -webkit-gradient(linear, right top, left top, from(rgba(30, 16, 54, 0.9)), to(rgba(30, 16, 54, 0.3))), url("/src/public/Assets/Images/webdev-wallpaper.jpg") center top;
-  background: linear-gradient(to left, rgba(30, 16, 54, 0.9), rgba(30, 16, 54, 0.3)), url("/src/public/Assets/Images/webdev-wallpaper.jpg") center top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;

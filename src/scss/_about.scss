@@ -10,13 +10,13 @@
             rgba($primary-color, 0.9),
             rgba($secondary-color, 0.3)
           );
-        background: 
-          linear-gradient(
-            to left,
-            rgba($primary-color, 0.9),
-            rgba($primary-color, 0.3)
-          ),
-          url('/src/public/Assets/Images/a-logo-i-made.jpg') center center;
+        // background: 
+        //   linear-gradient(
+        //     to left,
+        //     rgba($primary-color, 0.9),
+        //     rgba($primary-color, 0.3)
+        //   ),
+        //   url('/src/public/Assets/Images/a-logo-i-made.jpg') center center;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -122,17 +122,17 @@
     }
 
     .job-desc {
-        text-align: left;
+        text-align: center;
         padding-left: 25px;
     }
 
     .school-desc {
-        text-align: left;
+        text-align: center;
         padding-left: 25px;
     }
 
     h3 {
-        color: $third-color;
+        color: $secondary-color;
     }
 
     .social-icons {
