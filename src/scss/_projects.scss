@@ -8,6 +8,12 @@
           linear-gradient(
             to left,
             rgba($primary-color, 0.9),
+            rgba($secondary-color, 0.3)
+          );
+        background: 
+          linear-gradient(
+            to left,
+            rgba($primary-color, 0.9),
             rgba($primary-color, 0.3)
           ),
           url('/src/public/Assets/Images/webdev-wallpaper.jpg') center top;
@@ -24,7 +30,7 @@
     }
 
     &__header {
-        padding-bottom: 175px;
+        padding-bottom: 285px;
     }
 
 
