@@ -1,7 +1,7 @@
 .contact {
     height: 100%;
     //40 percent of the avialable view-port height
-    padding-top:  40vh;
+    padding-top:  30vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -20,14 +20,23 @@
 
     &__list {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
         grid-gap: 2rem;
         font-size: 1.5rem;
     }
 
-    .social-icons {
-        position: initial;
-        margin-top: 2rem;
+    &__form {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-gap: 2rem;
+        font-size: 1.5rem;
     }
+
+    &__icons {
+        display: flex;
+        flex-direction: row;
+    }
+
+    
 
 }

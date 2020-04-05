@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sirhunty/Portfolio-Page-V2#readme",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "sass": "^1.26.3",
     "swup": "^2.0.9"
   },

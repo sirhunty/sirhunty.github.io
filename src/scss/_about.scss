@@ -10,7 +10,7 @@
             rgba($primary-color, 0.9),
             rgba($primary-color, 0.3)
           ),
-          url('../public/Assets/Images/a-logo-i-made.jpg') center center;
+          url('/src/public/Assets/Images/a-logo-i-made.jpg') center center;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -32,6 +32,28 @@
         }
       }
 
+    .skills {
+        width: 40vw;
+        margin: 2rem auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        text-align: center;
+        font-size: 6rem;
+
+        &__skill {
+           background: lighten($primary-color, 10%);
+           padding: 0.5rem;
+           border-bottom: 5px solid $third-color; 
+        }
+
+        h2, h3 {
+            margin: 0.5rem 0;
+        }
+        h6 {
+            margin: 0.3rem 0;
+        }
+    }
 
     .jobs {
         width: 40vw;
